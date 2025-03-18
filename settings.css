@@ -1,0 +1,70 @@
+/* Reset default margin and padding */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Sidebar Styling */
+#sidebar {
+    width: 200px;
+    height: 100vh;
+    background: rgba(22, 15, 68, 0.6); /* Semi-transparent dark blue */
+    color: rgb(5, 1, 1);
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding: 60px;
+}
+/* Sidebar Heading */
+#sidebar h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Sidebar List */
+#sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Sidebar List Items */
+#sidebar ul li {
+    margin-bottom: 15px;
+}
+
+/* Sidebar Links */
+#sidebar ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+/* Hover Effect */
+#sidebar ul li a:hover {
+    background-color: rgb(116, 195, 221);
+    color: black;
+}
+
+/* Main Content Area */
+#main-content {
+    text-align: center;
+    margin-left: 220px; /* Ensure content does not overlap with the sidebar */
+    padding: 20px;
+    background-color: white;
+    height: 10vh;
+}
+#Home{
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    border: solid;
+
+}
+.head{
+    margin-left: 220px; /* Ensure content does not overlap with the sidebar */
+    text-align: center;
+}

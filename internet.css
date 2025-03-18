@@ -1,0 +1,80 @@
+body{
+    background-color: rgb(37, 31, 31);
+    text-align: center;
+}
+.Searchbar{
+    text-align: center;
+    position: fixed;
+    top: 8px;
+}
+#Google{
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #eeee;
+}
+.Google{
+    padding-top: 20px;
+    text-align: left;
+    text-align: center;
+}
+.Buttons{
+    text-align: center;
+    padding: 50px 20px;
+}
+.Buttons-Submit{
+    padding: 10px 20px;
+    font-size: 30px;
+    margin-right: 50px;
+    cursor: pointer;
+    border: solid;
+    background-color: rgb(106, 93, 93);
+    color: rgb(9, 9, 217);
+    transition: background-color .7s ease;
+    transition: color 1.7s ease;
+}
+.Buttons-Reset{
+    padding: 10px 20px;
+    font-size: 30px;
+    cursor: pointer;
+    border: solid;
+    background-color: rgb(106, 93, 93);
+    color: rgb(9, 9, 217);
+    transition: background-color .7s ease;
+    transition: color 1.7s ease;
+}
+.Buttons-Reset:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(114, 239, 239);
+}
+.Buttons-Submit:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(114, 239, 239);
+}
+.Search{
+    text-align: center;
+    color: #eeee;
+    padding-top:100px ;
+    font-size: 100px;
+}
+#Page{
+    text-align: center;
+}
+.Home{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 30px;
+    border: solid;
+    border-width: 2.6px;
+    border-start-start-radius: 10px;
+    border-end-start-radius: 10px;
+    font-size: 50px;
+    text-decoration: none;
+    background-color: rgb(152, 137, 137);
+    color: rgb(11, 11, 225);
+    transition: background-color 1.7s ease;
+    transition: color .7s ease;
+}
+.Home:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(11, 214, 225);
+}

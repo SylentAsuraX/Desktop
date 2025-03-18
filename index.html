@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sylent_Asura_X</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+    <!-- Taskbar -->
+    <div id="taskbar">
+        <button id="start-button">Start</button>
+        <div id="start-menu">
+            <div class="menu-item">
+                <a href="settings.html">⚙️ Settings</a>
+            </div>
+            <hr>
+            <button onclick="alert('Option 1 Clicked')">Option 1</button>
+            <button onclick="alert('Option 2 Clicked')">Option 2</button>
+            <button onclick="alert('Option 3 Clicked')">Option 3</button>
+        </div>
+        
+        <!-- Date & Time Display -->
+        <div id="datetime-container">
+            <div id="time"></div>
+            <div id="date"></div>
+        </div>
+    </div>
+
+    <!-- Desktop -->
+    <div id="desktop">
+        <div class="icon folder" draggable="true" id="folder1" ondblclick="openFolder('window1')">📁 Folder 1</div>
+        <div class="icon folder" draggable="true" id="folder2" ondblclick="openFolder('window2')">📁 Folder 2</div>
+        <div class="icon folder" draggable="true" id="folder3" ondblclick="openFolder('window3')">📁 Folder 3</div>
+        <a href="Internet.html" class="icon" id="internet-icon" draggable="true">🌐 Internet</a>
+        <a href="Thispc.html" class="icon" id="Gemini-icon" draggable="true">🖥️ This PC</a>
+    </div>
+
+    <!-- Folder Windows -->
+    <div class="window" id="window1">
+        <div class="title-bar">
+            <span>Folder 1</span>
+            <button onclick="closeFolder('window1')">X</button>
+        </div>
+        <div class="window-content"></div>
+    </div>
+
+    <div class="window" id="window2">
+        <div class="title-bar">
+            <span>Folder 2</span>
+            <button onclick="closeFolder('window2')">X</button>
+        </div>
+        <div class="window-content">Folder 2 Content</div>
+    </div>
+
+    <div class="window" id="window3">
+        <div class="title-bar">
+            <span>Folder 3</span>
+            <button onclick="closeFolder('window3')">X</button>
+        </div>
+        <div class="window-content">
+            <div class="icon folder" draggable="true" id="subfolder1" ondblclick="openFolder('window4')">📁 Subfolder 1</div>
+            <div class="icon folder" draggable="true" id="subfolder2" ondblclick="openFolder('window5')">📁 Subfolder 2</div>
+        </div>
+    </div>
+
+    <!-- Subfolders Inside Folder 3 -->
+    <div class="window" id="window4">
+        <div class="title-bar">
+            <span>Subfolder 1</span>
+            <button onclick="closeFolder('window4')">X</button>
+        </div>
+        <div class="window-content">Subfolder 1 Content</div>
+    </div>
+
+    <div class="window" id="window5">
+        <div class="title-bar">
+            <span>Subfolder 2</span>
+            <button onclick="closeFolder('window5')">X</button>
+        </div>
+        <div class="window-content">Subfolder 2 Content</div>
+    </div>
+</body>
+</html>

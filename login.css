@@ -1,0 +1,62 @@
+body{
+    font-size: 30px;
+    text-align: center;
+    padding: 100px;
+    background-image:url(landscape.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.login{
+    display: inline-block;
+    padding-inline: 200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: solid;
+    border-color: rgb(149, 121, 84);
+    border-radius: 30px;
+    backdrop-filter: blur(4px);
+    background-color: hsla(hu0, saturation, lightness, alpha);
+    font-weight: bold;
+}
+.search{
+    padding: 3px 20px;
+    border: none;
+    border-end-start-radius: 5px;
+    border-start-end-radius: 5px;
+}
+.buttons{
+    padding: 10px 30px;
+    margin-right: 15px;
+    margin-left: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    border: solid;
+    border-end-end-radius: 10px;
+    border-start-start-radius: 10px;
+    background-color: #deb887;
+    transition: background-color .3s ease-in-out;
+    transition: color .2s ease-in-out;
+    cursor: pointer;
+}
+.buttons:hover{
+    background-color: #5f4218;
+    color: #deb887;
+}
+.Home{
+    display: inline-block;
+    padding: 10px 20px;
+    border: solid;
+    text-decoration: none;
+    margin-bottom:30px;
+    background-color: burlywood;
+    color: black;
+    transition: background-color .3s ease-in-out;
+    transition: color .2s ease-in-out;
+}
+.Home:hover{
+    background-color: black;
+    color: rgb(255, 170, 1);
+}

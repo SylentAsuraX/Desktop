@@ -1,0 +1,29 @@
+body{
+    padding: 150px;
+    text-align: center;
+    background-image: url(simple\ background.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-size: 30px;
+}
+
+.slider{
+    color: rgb(46, 16, 178);
+}
+.settings{
+    color: rgb(0, 0, 0);
+    background-color: rgb(27, 210, 195);
+    border: solid;
+    border-width: 5px;
+    border-start-start-radius: 20px;
+    border-end-end-radius: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: background-color .7s ease-in-out;
+    transition: color .2s ease-in-out;
+}
+.settings:hover{
+    background-color:rgb(8, 13, 13) ;
+    color: rgb(0, 251, 255);
+}

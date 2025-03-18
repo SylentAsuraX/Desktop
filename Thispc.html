@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taskbar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Taskbar -->
+    <div id="taskbar">
+        <button id="start-button">Start</button>
+        <div id="start-menu">
+            <div class="menu-item">
+                <a href="settings.html" id="settings-link">⚙️ Settings</a>
+            </div>
+            <div class="menu-item">
+                <a href="profile.html" id="profile-link">👤 Profile</a>
+            </div>
+            <hr>
+            <button onclick="alert('Option 1 Clicked')">Option 1</button>
+            <button onclick="alert('Option 2 Clicked')">Option 2</button>
+            <button onclick="alert('Option 3 Clicked')">Option 3</button>
+        </div>
+        <!-- Date & Time -->
+         <div class="Container">
+            <div id="Digital-Clock">
+                <div id="time"></div>
+                <div id="date"></div>
+            </div>
+         </div>
+    </div>
+    <script src="ThisPc.Js"></script>
+</body>
+</html>

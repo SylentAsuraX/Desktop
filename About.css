@@ -1,0 +1,27 @@
+body{
+    background-color: black;
+    color: aqua;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 50px;
+    transition: color 1.7s ease;
+}
+body:hover{
+    color: aquamarine;
+}
+.Home{
+    border: solid;
+    background-color: cyan;
+    color: black;
+    padding: 20px 40px;
+    border-radius: 30px;
+    font-size: 70px;
+    text-decoration: none;
+    transition: background-color .2s ease-in-out;
+    transition: color .2s ease-in-out;
+}
+.Home:hover{
+    text-decoration: none;
+    background-color: black;
+    color: cyan;
+}

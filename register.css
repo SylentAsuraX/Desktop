@@ -1,0 +1,92 @@
+body{
+    text-align: center;
+    padding: 100px;
+    background-image: url(background.webp);
+    background-position: center;
+    background-size: cover;
+}
+.form{
+    display: inline-block;
+    text-align: center;
+    border:solid;
+    border-color: rgb(217, 3, 185);
+    border-start-end-radius: 100px;
+    border-end-start-radius: 100px;
+    padding: 100px;
+    backdrop-filter: blur(5px);
+}
+.Fullname{
+    border:solid;
+    padding: 5px 10px;
+    margin-right: 20px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+.password{
+    border:solid;
+    padding: 5px 10px;
+    margin-right: 20px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+.confirmpassword{
+    border:solid;
+    padding: 5px 10px;
+    margin-right: 20px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+.Phone{
+    border:solid;
+    padding: 5px 10px;
+    margin-right: 20px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+.Country{
+    border:solid;
+    padding: 5px 10px;
+    margin-right: 20px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+.career{
+    border:solid;
+    padding: 5px 10px;
+    margin-right: 20px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+.Btn{
+    padding: 8px 20px;
+    border: solid;
+    border-color: purple;
+    background-color: rgb(114, 17, 114);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 25px;
+    border-radius: 5px;
+    margin-right: 20px;
+    margin-left: 20px;
+    transition: background-color .2s ease-in-out;
+    cursor: pointer;
+}
+.Btn:hover{
+    background-color:rgb(235, 156, 235);
+    color: rgb(0, 0, 0);
+}
+.Outside{
+    border:solid;
+    padding: 5px 10px;
+    margin-right: 20px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+

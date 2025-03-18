@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Speed.css">
+    <title>Document</title>
+</head>
+<body class="all">
+    
+    <form action="">
+        <div>
+        <label for="slider" class="slider">Cursor Speed:</label>
+        <input type="range" id="slider" min="0" max="100" step="5" value="50">
+        <p>Value: <span id="sliderValue">50</span></p>
+
+          <script>
+          const slider = document.getElementById("slider");
+           const output = document.getElementById("sliderValue");
+
+           slider.addEventListener("input", function() {
+        output.textContent = slider.value;
+    });
+</script>
+         <label for="slid" class="slider">Sensitivity:</label>
+        <input type="range" id="slid" min="0" max="100" step="5" value="50">
+        <p>Value: <span id="slidValue">50</span></p>
+
+          <script>
+          const slid = document.getElementById("slid");
+           const cout = document.getElementById("slidValue");
+
+           slid.addEventListener("input", function() {
+        cout.textContent = slid.value;
+    });
+</script>
+   <label for="STEEP" class="slider">Number of lines to scroll when using the scroller :</label>
+        <input type="range" id="STEEP" min="0" max="10" step="2" value="3">
+        <p>Value: <span id="STEEPValue">4</span></p>
+
+          <script>
+          const STEEP = document.getElementById("STEEP");
+           const thecout = document.getElementById("STEEPValue");
+
+           STEEP.addEventListener("input", function() {
+        thecout.textContent = STEEP.value;
+    });
+</script>
+</div>
+    </form>
+    <a href="settings.html" class="settings">Go back</a>
+</body>
+</html>
